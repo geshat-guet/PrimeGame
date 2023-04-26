@@ -38,6 +38,9 @@ public class Primegame
     {
         boolean spielLaeuft = true;
 
+        // Abschnitt 1 - Finde eine Überschrift
+        //
+        //////////////////////////////////////////////////////////
         System.out.println("Bitte Spielername 1 eingeben, oder COM für Computerspieler.");
         String spieler1 = eingabezeileEinlesen();
 
@@ -48,19 +51,25 @@ public class Primegame
         int spiel = 0;
         int wahl = 0;
 
+        // Abschnitt 2 - Finde eine Überschrift
+        //
+        /////////////////////////////////////////////////////////////
         while(spielLaeuft)
         {
-            // Konsole leeren
-            //System.out.print('\u000C');
             // Ausgaben für die neue Runde
             System.out.println("Der aktuelle Spielstand ist:");
             System.out.println(spieler1 +": "+ punkteA);
             System.out.println(spieler2 +": "+ punkteB);
             zeigeAktZahlen();
 
-            // Falls noch Zahlen übrig sind, kann gewählt werden
+            // Abschnitt 3 - Finde eine Überschrift
+            //
+            /////////////////////////////////////////////////////////////
             if(restzuege>0)
             {
+                // Abschnitt 4 - Finde eine Überschrift
+                //
+                /////////////////////////////////////////////////////////////
                 if(spiel == 0)
                 {    
                     System.out.println(spieler1 + " bitte wähle eine Zahl oder 0 zum Beenden.");
@@ -92,7 +101,9 @@ public class Primegame
                 }
             }
 
-            // Falls eine Zahl gewählt wurde wird sie ausgewertet.
+            // Abschnitt 5 - Finde eine Überschrift
+            //
+            /////////////////////////////////////////////////////////////
             if(wahl>0 && restzuege >0)
             {
                 try
@@ -116,14 +127,15 @@ public class Primegame
             }
             else
             {
-                // Das Spiel ist beendet, Ausgabe des Endstands.
+                // Abschnitt 6 - Finde eine Überschrift
+                //
+                ///////////////////////////////////////////////////////
                 spielLaeuft = false;
                 System.out.println("Spiel beendet.");
                 System.out.println("Der aktuelle Spielstand ist:");
                 System.out.println(spieler1 +": "+ punkteA);
                 System.out.println(spieler2 +": "+ punkteB);
 
-                // TODO: Weitere Runde spielen? Spiel zurücksetzen...
             }
 
         }
