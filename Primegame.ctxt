@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Primegame
+comment0.text=\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Primegame.\n\ \n\ @author\ guet\ \n\ @version\ 2023\n
+comment1.params=pMax
+comment1.target=Primegame(int)
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Primegame\n
+comment2.params=
+comment2.target=void\ gameLoop()
+comment3.params=
+comment3.target=void\ setup()
+comment4.params=
+comment4.target=int\ computerZug()
+comment5.params=
+comment5.target=void\ zeigeAktZahlen()
+comment5.text=\n\ zeigeAktZahlen\ zeigt\ das\ aktuelle\ Zahlenfeld\ an\ bzw.\ "-",\ falls\ es\ die\ Zahl\ nicht\n\ mehr\ gibt.\n
+comment6.params=spieler\ pZahl
+comment6.target=void\ spielerWaehleZahl(int,\ int)
+comment6.text=\n\ spielerWaehleZahl\ Auswertungsmethode,\ Punktevergabe\n\ @param\ spieler\:\ Spieler\ 0\ oder\ 1\n\ @param\ pZahl\:\ die\ gew\u00E4hlte\ Zahl\n
+comment7.params=spieler\ pZahl
+comment7.target=void\ streicheTeilerBeiSpieler(int,\ int)
+comment7.text=\n\ streicheTeilerBeiSpieler\ streicht\ alle\ Teiler\ der\ Zahl\ pZahl\ und\ \n\ wertet\ diese\ bei\ Spieler\ spieler\n\ @param\ spieler\:\ Spieler,\ bei\ dem\ gewertet\ wird.\n\ @param\ pZahl\:\ Zahl,\ deren\ Teiler\ gestrichen\ werden\ sollen.\n
+comment8.params=
+comment8.target=java.lang.String\ eingabezeileEinlesen()
+comment8.text=\n\ Lies\ eine\ Eingabezeile\ und\ liefere\ sie\ als\ String-Ergebnis.\n\n\ @return\ \ Einen\ String,\ der\ die\ Eingabezeile\ enth\u00E4lt,\ oder\ \n\ \ \ \ \ \ \ \ \ \ \ einen\ leeren\ String\ im\ Falle\ eines\ Fehlers.\n
+numComments=9
